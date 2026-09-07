@@ -16,6 +16,7 @@ namespace GYB_gokartprojekt2
              */
 
             Console.WriteLine("GYB \n 2026-09-05 \n Gokart időpontfoglaló - Egyénikis projekt");
+
         }
     }
 }
