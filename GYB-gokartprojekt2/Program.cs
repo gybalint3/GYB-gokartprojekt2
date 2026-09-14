@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace GYB_gokartprojekt2
 {
-    internal class Program
+    internal class program
     {
         static void Main(string[] args)
         {
-            /*GYB 
-             * 2026-09-05
-             * Gokart időpontfoglaló - Egyénikis projekt
-             */
+            Helyszin helyszin = new Helyszin(
+                "GYB Gokartpálya",
+                "6066, Tiszaalpár Rohonci út 12.",
+                "+36-30-512-8847",
+                "gyb-gokart.hu"
+            );
 
-            Console.WriteLine("GYB \n 2026-09-05 \n Gokart időpontfoglaló - Egyénikis projekt");
-
+            helyszin.AdatokKiirasa();
         }
+
     }
 }
